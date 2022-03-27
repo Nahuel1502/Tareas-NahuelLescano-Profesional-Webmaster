@@ -1,0 +1,41 @@
+.contenedor{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    margin:300px;
+    padding: auto;
+    width: 700px;
+    height: 130px;
+    border:solid 4px black;
+    }
+    
+    .div1 {
+        background-color: blue;
+        width: 130px;
+        height: 130px;
+        font-size: 30px;
+    display: flex;
+    justify-content: center;
+    }
+    .div2{
+        background-color: slateblue;
+        width: 130px;
+        height: 130px;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .div3{
+        background-color: red;
+        width: 130px;
+        height: 130px;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    p{
+        color: yellow;
+    }

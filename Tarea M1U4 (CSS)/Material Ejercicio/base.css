@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #000;
+	background: #332F29;
+	font-size:100%;
+}
+#contenedor {
+	display: flex;
+	flex-flow: column;
+	width: 100%;
+	background: #8FA68E;
+	margin: auto;
+	overflow: hidden;
+}
+nav {
+	display: inline-flex;
+	background: #CC3910;
+	width: 100%;
+}
+ul {
+	list-style-type:none;
+}
+a {
+	color:#F1F2C0;
+	text-decoration: none;
+}
+section {
+	display: inline-flex;
+	background: #F1F2C0;
+	flex-direction: column;
+	width: 100%;
+}
+aside {
+	display: inline-flex;
+	flex-direction: column;
+	background: #CCC59E;
+	width: 100%;
+}

@@ -1,40 +1,143 @@
 @charset "utf-8";
 /* CSS Document */
+@media (max-width: 769px){
+	body {
+		color: #000;
+		background: #332F29;
+		font-size:100%;
+	}
+	#contenedor {
+		font-size: 27px;
+		display: flex;
+		width: 100%;
+		height: 100%;
+		background: #8FA68E;
+		align-items: left;
+		justify-content: left;
+		flex-flow: column wrap;
+	}
+	nav {
+		display:inline-flex;
+		background: #CC3910;
+		float: left;
+		flex-flow: column wrap;
+		width: 100%;
+	}
+	ul {
+		list-style-type:none;
+	}
+	a {
+		color:#F1F2C0;
+		text-decoration: none;
+	}
+	section {
+		display: flex;
+		flex-flow: column wrap;
+		background: #F1F2C0;
+		float:left;
+		width: 100%;
+	}
+	aside {
+		display: flex;
+		background: #CCC59E;
+		float: left;
+		width: 100%;
+		flex-flow: column wrap;
+	}
 
-body {
-	color: #000;
-	background: #332F29;
-	font-size:100%;
 }
-#contenedor {
-	display: flex;
-	flex-flow: column;
-	width: 100%;
-	background: #8FA68E;
-	margin: auto;
-	overflow: hidden;
+
+@media (min-width: 770px) and (max-width:1500px){
+	body {
+		color: #000;
+		background: #332F29;
+		font-size:100%;
+	}
+	#contenedor {
+		display: flex;
+		font-size: 38px;
+		width: 100%;
+		height: 100%;
+		background: #8FA68E;
+		overflow: hidden;
+		align-items: left;
+		justify-content: left;
+		flex-flow: column wrap;
+	}
+	nav {
+		display:inline-flex;
+		background: #CC3910;
+		float: left;
+		flex-flow: column wrap;
+		width: 100%;
+	}
+	ul {
+		list-style-type:none;
+	}
+	a {
+		color:#F1F2C0;
+		text-decoration: none;
+	}
+	section {
+		display: flex;
+		flex-flow: column wrap;
+		background: #F1F2C0;
+		float:left;
+		width: 100%;
+	}
+	aside {
+		display: flex;
+		background: #CCC59E;
+		float: left;
+		width: 100%;
+		flex-flow: column wrap;
+	}
+
 }
-nav {
-	display: inline-flex;
-	background: #CC3910;
-	width: 100%;
-}
-ul {
-	list-style-type:none;
-}
-a {
-	color:#F1F2C0;
-	text-decoration: none;
-}
-section {
-	display: inline-flex;
-	background: #F1F2C0;
-	flex-direction: column;
-	width: 100%;
-}
-aside {
-	display: inline-flex;
-	flex-direction: column;
-	background: #CCC59E;
-	width: 100%;
+
+@media (min-width:1501px) {
+	body {
+		color: #000;
+		background: #332F29;
+		font-size:100%;
+	}
+	#contenedor {
+		display: flex;
+		font-size: 70px;
+		width: 100%;
+		height: 100%;
+		background: #8FA68E;
+		overflow: hidden;
+		align-items: left;
+		justify-content: left;
+		flex-flow: column wrap;
+	}
+	nav {
+		display:inline-flex;
+		background: #CC3910;
+		float: left;
+		flex-flow: column wrap;
+		width: 100%;
+	}
+	ul {
+		list-style-type:none;
+	}
+	a {
+		color:#F1F2C0;
+		text-decoration: none;
+	}
+	section {
+		display: flex;
+		flex-flow: column wrap;
+		background: #F1F2C0;
+		float:left;
+		width: 100%;
+	}
+	aside {
+		display: flex;
+		background: #CCC59E;
+		float: left;
+		width: 100%;
+		flex-flow: column wrap;
+	}
 }
